@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CorsConfig>
+	<Cors>
+		<Origins>
+			<Origin>http://*.volcanicpixels.com</Origin>
+			<Origin>http://*.platinummirror.com</Origin>
+			<Origin>http://*.danielchatfield.com</Origin>
+			<Origin>http://*.danielchatfield.dev</Origin>
+		</Origins>
+		<Methods>
+			<Method>GET</Method>
+			<Method>HEAD</Method>
+			<Method>DELETE</Method>
+		</Methods>
+	</Cors>
+</CorsConfig>

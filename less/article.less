@@ -1,0 +1,52 @@
+/*
+	Styles for article pages
+*/
+
+@font-face {
+	font-family: "Essays 1743";
+	src: url("../webfonts/essays/Essays1743.eot?") format("eot"), url("../webfonts/essays/Essays1743.woff") format("woff"), url("../webfonts/essays/Essays1743.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Essays 1743";
+	font-weight: bold;
+	src: url("../webfonts/essays/Essays1743-bold.eot?") format("eot"), url("../webfonts/essays/Essays1743-bold.woff") format("woff"), url("../webfonts/essays/Essays1743-bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Essays 1743";
+	font-style: italic;
+	src: url("../webfonts/essays/Essays1743-italic.eot?") format("eot"), url("../webfonts/essays/Essays1743-italic.woff") format("woff"), url("../webfonts/essays/Essays1743-italic.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Essays 1743";
+	font-style: italic;
+	font-weight: bold;
+	src: url("../webfonts/essays/Essays1743-bold-italic.eot?") format("eot"), url("../webfonts/essays/Essays1743-bold-italic.woff") format("woff"), url("../webfonts/essays/Essays1743-bold-italic.ttf") format("truetype");
+}
+
+
+html {
+	font-size: 20px;
+}
+
+.section-header {
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+	padding: 20px;
+}
+
+@media print {
+	// remove the header when printing - only display article
+	.section-header {
+		display: none;
+	}
+}
+
+.article .font-essays, .article-content .font-essays, .font-essays {
+	font-family: "Essays 1743", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-shadow: 0 0 1px #667;
+}
+
+.fb-like span {
+	vertical-align: baseline !important;
+}
